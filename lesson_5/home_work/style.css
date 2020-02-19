@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0a080f;
+}
+.header {
+  text-align: center;
+}
+.header_logo {
+  margin-top: 420px;
+}
+.header_image {
+  width: 500px;
+}
