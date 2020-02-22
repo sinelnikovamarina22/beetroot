@@ -6,13 +6,15 @@
 body {
   background-color: #0a080f;
   font-family: 'Open Sans', sans-serif;
+  padding-top: 150px;
 }
 .header {
   text-align: center;
   margin-bottom: 55px;
 }
 .header_logo {
-  margin-top: 420px;
+  /* margin-top: 121px; */
+  /* margin: 121px 53px; */
 }
 .article {
   text-align: center;
@@ -20,10 +22,17 @@ body {
 .article_text {
   color: aliceblue;
   text-transform: uppercase;
+  margin-bottom: 23px;
 }
-
-.header_image {
-  /* width: 240px; */
+.devider {
+  display: block;
+  height: 1px;
+  width: 231px;
+  background-color: white;
+  margin: 0 auto;
+}
+.navigation {
+  padding: 23px;
 }
 .navigation_list {
   list-style: none;
@@ -35,22 +44,17 @@ body {
   padding-left: 15px;
   margin-right: 26px;
 }
-.devider {
-  display: block;
-  height: 1px;
-  width: 231px;
-  align-items: center;
-  background-color: white;
-  margin-top: 20px;
-}
+
 footer {
   font-family: sans-serif;
   text-align: center;
 }
 .footer_text {
   color: antiquewhite;
-  margin-bottom: 38;
+  /* margin-bottom: 38; */
+  padding: 87px 38px;
 }
+
 .footer_link {
   text-decoration: none;
   color: #00b6e4;
