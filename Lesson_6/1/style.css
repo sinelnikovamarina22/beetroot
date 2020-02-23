@@ -38,8 +38,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   background-color: blue;
   border-radius: 50%;
   fill: white;
@@ -48,13 +48,33 @@ body {
   margin-bottom: 20px;
 }
 
-.link_icon {
+.link_icon-1 {
   transition: all 0.2s ease;
+
+  width: 30px;
+  height: 32px;
 }
+.link_icon-2 {
+  transition: all 0.2s ease;
+  width: 24px;
+  height: 31px;
+}
+.link_icon-3 {
+  transition: all 0.2s ease;
+  width: 29px;
+  height: 34px;
+}
+
 .list_item_link-1:hover {
   background-color: white;
 }
-.list_item_link-1:hover .link_icon {
+.list_item_link-1:hover .link_icon-1 {
+  fill: blue;
+}
+.list_item_link-1:hover .link_icon-2 {
+  fill: blue;
+}
+.list_item_link-1:hover .link_icon-3 {
   fill: blue;
 }
 
