@@ -1,0 +1,113 @@
+@import url(/css/weather-icons-wind.css);
+@import url(/css/weather-icons.css);
+root {
+  --main-color: #3399cc;
+  --lisabon-color: #3399cc;
+  --paris-color: #33cccc;
+  --belgrade-color: #996699;
+  --kyiv-color: #c24747;
+  --telaviv-color: #e2674a;
+  --cair-color: #ffcc66;
+  --newyork-color: #;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  border: 24px solid;
+  background-color: ;
+  font-family: ;
+  padding: 32px;
+}
+.header {
+  margin: 0 auto;
+  max-width: ;
+  margin-bottom: 32px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  color: ;
+}
+.main {
+  margin: 0 auto;
+  max-width: ;
+  background-color: wheat;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid;
+}
+.list_item {
+  width: 25%;
+}
+
+.list_item:nth-child(1) {
+  background-color: ;
+  width: 50%;
+}
+.list_item:nth-child(2) {
+  background-color: ;
+}
+.list_item:nth-child(3) {
+  background-color: ;
+}
+.list_item:nth-child(4) {
+  background-color: ;
+}
+.list_item:nth-child(5) {
+  background-color: ;
+}
+.list_item:nth-child(6) {
+  background-color: ;
+}
+.list_item:nth-child(7) {
+  background-color: ;
+}
+.list_item:nth-child(8) {
+  background-color: ;
+}
+.list_item:nth-child(9) {
+  background-color: ;
+  width: 50%;
+}
+.list_item:nth-child(10) {
+  background-color: ;
+}
+.list_item:nth-child(11) {
+  background-color: ;
+}
+.list:hover .city:not(:hover) {
+  opacity: 0.5;
+}
+.city {
+  border: 2px solid;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.city:hover {
+  opacity: 0.5;
+}
+.city_name {
+  color: ;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.city_deg {
+  font-weight: 400;
+  font-size: 24px;
+  color: ;
+}
+.city_icon {
+  color: ;
+}

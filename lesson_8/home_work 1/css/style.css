@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Open+Sans+Condensed:300&display=swap');
+
+:root {
+  --main-color: #fdde7e;
+  --list-color: #ffffff;
+  --font-color: #02995b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.6s ease-in;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+}
+.list {
+  max-width: 1024px;
+  margin: 0 auto;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.list_item {
+  text-align: center;
+  background-color: var(--list-color);
+  width: 33.3%;
+  padding: 24px 90px;
+  background: white;
+}
+
+.list_item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.list_item:hover {
+  transform: scale(1.1);
+}
+.list_box_logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.list_logo:first-child {
+  margin-bottom: 1rem;
+}
+.list_price {
+  font-size: 4.4rem;
+  font-weight: 900;
+  font-family: 'Open Sans Condensed';
+  color: var(--font-color);
+  margin-bottom: 1rem;
+}
+.list_title {
+  font-size: 3.5rem;
+  font-weight: 2.2rem;
+  font-family: 'Open Sans Condensed';
+  margin-bottom: 2rem;
+}
+.list_text {
+  font-size: 1.25rem;
+  font-family: 'Lato';
+  width: 180px;
+}

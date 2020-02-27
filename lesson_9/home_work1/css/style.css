@@ -1,0 +1,82 @@
+@import url('/shrift/proxima/stylesheet.css');
+
+:root {
+  --main-color: write;
+  --text-color: #a2a2a2;
+  --button-color: #eaa258;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--main-color);
+}
+.main {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+  margin: 130px 100px;
+  padding: 142px 125px;
+  box-shadow: 0 0 20px 10px rgba(221, 221, 221, 1);
+}
+.conteiner {
+  list-style: none;
+  width: 1160px;
+}
+.conteiner_title {
+  text-transform: uppercase;
+  font-family: proxima;
+  font-size: 2.63rem;
+  margin-bottom: 42px;
+}
+.conteiner_text {
+  font-size: 1.13rem;
+  font-weight: 400;
+  color: var(--text-color);
+}
+.text_paragraph {
+  font-family: 'proxima';
+  line-height: 1.6;
+}
+
+.text_paragraph:not(:last-child) {
+  margin-bottom: 50px;
+}
+.text_letter {
+  font-size: 4.9rem;
+  text-transform: uppercase;
+  display: block;
+  float: left;
+  color: black;
+  padding-right: 36px;
+  line-height: 0.9;
+}
+.conteiner_lowercase {
+  font-family: 'proxima_italic';
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--text-color);
+  margin-bottom: 40px;
+}
+.lowercase_mark {
+  font-size: 5rem;
+}
+.button {
+  text-decoration: none;
+  color: var(--button-color);
+
+  font-family: 'proxima';
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 0.7em 3em;
+  border: 2px solid var(--button-color);
+}
