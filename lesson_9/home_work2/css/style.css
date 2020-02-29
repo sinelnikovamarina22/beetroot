@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Caladea:400,400i,700|Nanum+Gothic:400,700&display=swap');
+:root {
+  --body-color: #444d52;
+  --main-color: #ffffff;
+  --title-color: #181818;
+  --title-text-color: #777777;
+  --title-letter-color: #ffffff;
+  --aside-color: #fabf2d;
+  --text-color: #8f8f8f;
+  --margin-bottom-color: #303030;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  /* height: 100vh; */
+  background-color: var(--body-color);
+  /* position: relative; */
+  padding-top: 150px;
+  height: auto;
+}
+.header {
+  background-color: var(--title-color);
+  width: 70%;
+  /* display: flex;
+  flex-direction: column; */
+  padding: 48px 0 55px 70px;
+  position: absolute;
+  left: 30%;
+  margin-top: 50px;
+}
+.title_subtitle {
+  color: var(--title-text-color);
+  text-transform: uppercase;
+  font-family: 'Nanum Gothic';
+  font-size: 0.95rem;
+  letter-spacing: 0.6em;
+}
+.title_text {
+  color: var(--title-letter-color);
+  font-family: 'Nanum Gothic';
+  font-size: 3rem;
+  font-weight: 400;
+  border-bottom: 2px solid var(--body-color);
+  padding-bottom: 15px;
+}
+.aside {
+}
+.aside_list {
+  background-color: var(--aside-color);
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 20px 200px 20px 50px;
+  position: absolute;
+  left: 40%;
+  margin-top: 192px;
+}
+.list_items {
+}
+.items_image {
+}
+.main {
+  max-width: 1062px;
+  background-color: var(--main-color);
+  /* display: flex;
+  flex-direction: column;
+  height: auto;
+  text-align: justify; */
+  margin: 0 auto;
+  padding: 200px 130px 0 130px;
+  border-right: 1px solid var(--text-color);
+}
+.main_time {
+  color: var(--text-color);
+  font-family: 'Nanum Gothic';
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 45px;
+  padding-left: 6px;
+}
+.main_title {
+  font-family: 'Nanum Gothic';
+  text-transform: uppercase;
+  font-size: 4.88rem;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.main_desc {
+  font-family: 'Caladea';
+  font-size: 1.9rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--text-color);
+  margin-bottom: 40px;
+}
+.main_text {
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+  /* line-height: 10px; */
+}
+.main_italics {
+  font-size: 1.7rem;
+  font-weight: 400;
+  font-style: italic;
+}
+.main_paragraph {
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+  line-height: ;
+}
